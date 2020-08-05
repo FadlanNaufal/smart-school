@@ -1,0 +1,111 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.hero h1 {
+    font-weight: bold;
+    color : #2F281E
+}
+
+.hero p {
+    color : #2F281E
+}
+
+.btn-primary {
+    background: #428DFC;
+    border: 0;
+    padding : 15px 30px 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.navbar-nav .nav-link {
+    color : #2F281E;
+}
+
+.navbar-nav .nav-link .active {
+    color : #2F281E;
+}
+
+.about {
+    background: #397fe9;
+    min-height: 200px;
+}
+
+.feature-subtitle {
+    color: #3F8AFD;
+}
+
+.card-shadow {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    border: 0;
+    height: 250px;
+}
+
+.testimonial {
+    margin-top: 100px !important;
+}
+
+.testimonial-card {
+    height: 400px;
+    margin: 0px 50px 0px 50px;
+}
+
+.testimonial-image {
+    width: 100%;
+    height: 100%;
+    display : flex;
+    background-color: #3F8AFD;
+    padding: 20px;
+    border-radius: 0px 0px 100px 0px;
+}
+
+.feature-card {
+    height: 250px;
+}
+
+.testimonial-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact {
+    background-color: #3F8AFD;
+}
+
+.contact-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-send {
+    background-color: #146CF2;
+}
+/* Carousel */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  padding: 20px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+}
+
+.footer {
+    background-color: #146CF2;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width : 500px){
+    .feature-card {
+        height: inherit;
+    }
+
+}
