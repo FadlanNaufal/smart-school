@@ -50,12 +50,13 @@ html, body {
 
 .testimonial-card {
     height: 400px;
+    max-height: 400px;
     margin: 0px 50px 0px 50px;
 }
 
 .testimonial-image {
     width: 100%;
-    height: 100%;
+    height: 100%;   
     display : flex;
     background-color: #3F8AFD;
     padding: 20px;
@@ -71,6 +72,10 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.testimonial-banner {
+    width: 350px;
 }
 
 .contact {
@@ -103,9 +108,16 @@ html, body {
 }
 
 
-@media screen and (max-width : 500px){
+@media screen and (max-width : 400px){
     .feature-card {
         height: inherit;
     }
 
+    .testimonial-card {
+        height: 400px;
+    }
+
+    .testimonial-banner {
+        width: 300px;
+    }
 }
